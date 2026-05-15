@@ -1,36 +1,50 @@
-<!- -CHECKOUT PAGE (checkout.html) - ->
 <!DOCTYPE html>
 <html>
 <head>
-<title>Checkout</title>
-<link rel="stylesheet" href="css/style.css">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body onload="loadCheckout()">
+
 <header>
-<h1> Checkout</h1>
+    <h1>💳 Checkout</h1>
 </header>
+
 <nav>
-<a href="index.html">Home</a>
-<a href="menu.html">Menu</a>
-<a href="cart.html">Cart</a>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="cart.html">Cart</a>
 </nav>
+
 <div class="container">
-<h2>Order Summary</h2>
-<div id="orderSummary"></div>
-<h2>Delivery Details</h2>
-<form onsubmit="return validateCheckout()">
-<input type="text" id="name" placeholder="Full Name" required><br>
-<input type="text" id="phone" placeholder="Phone Number" required><br>
-<input type="text" id="address" placeholder="Address" required><br>
-<select id="payment">
-<option value="">Select Payment Method</option>
-<option>Cash on Delivery</option>
-<option>UPI</option>
-<option>Card</option>
-</select><br><br>
-<button type="submit">Place Order</button>
-</form>
+
+    <h2>Order Summary</h2>
+    <div id="orderSummary"></div>
+
+    <h2>Delivery Details</h2>
+
+    <form onsubmit="return validateCheckout()">
+
+        <input type="text" id="name" placeholder="Full Name" required><br>
+
+        <input type="text" id="phone" placeholder="Phone Number" required><br>
+
+        <input type="text" id="address" placeholder="Address" required><br>
+
+        <select id="payment">
+            <option value="">Select Payment Method</option>
+            <option>Cash on Delivery</option>
+            <option>UPI</option>
+            <option>Card</option>
+        </select><br><br>
+
+        <button type="submit">Place Order</button>
+
+    </form>
+
 </div>
+
 <script src="js/script.js"></script>
+
 </body>
 </html>

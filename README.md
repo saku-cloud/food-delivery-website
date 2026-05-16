@@ -20,3 +20,11 @@ Sakshi Nangare
 - Cloud hosting using AWS
 - Docker deployment
 - Backend integration
+
+## Live Demo
+
+AWS S3 Hosted Website:
+YOUR_WEBSITE_LINK
+
+## Cloud Deployment
+This project is deployed using AWS S3 Static Website Hosting.
